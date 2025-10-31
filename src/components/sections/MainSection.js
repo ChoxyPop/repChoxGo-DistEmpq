@@ -9,7 +9,7 @@ export default class MainSection {
     `;
 
     const emailIcon = `
-      <svg width="22px" height="22px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" id="mail"><defs><linearGradient id="a" x1="26.206" x2="146.207" y1="-1059.782" y2="-1059.782" gradientTransform="rotate(90 -486.788 -512.994)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1d6ff2"></stop><stop offset="1" stop-color="#1ac8fc"></stop></linearGradient></defs><path fill="url(#a)" fill-rule="evenodd" d="M0,94V26A25.94821,25.94821,0,0,1,26,0H94a25.94821,25.94821,0,0,1,26,26V94a25.94821,25.94821,0,0,1-26,26H26A26.012,26.012,0,0,1,0,94Z"></path><path fill="#fff" fill-rule="evenodd" d="M99,86.2a6.10894,6.10894,0,0,1-3,.8H24a5.83049,5.83049,0,0,1-3-.8l24-24,5.9,5.9A12.219,12.219,0,0,0,60,71.5a12.37426,12.37426,0,0,0,9.1-3.4L75,62.2Zm2.1-2.2-24-24,24-24a6.10893,6.10893,0,0,1,.8,3V81A4.55088,4.55088,0,0,1,101.1,84ZM18.8,84a6.10894,6.10894,0,0,1-.8-3V39a5.83049,5.83049,0,0,1,.8-3l24,24ZM99,33.8,66.9,65.9A9.353,9.353,0,0,1,60,68.5a9.353,9.353,0,0,1-6.9-2.6L21,33.8a6.10894,6.10894,0,0,1,3-.8H96A6.10862,6.10862,0,0,1,99,33.8Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 -4 32 32" fill="none"><path d="M29.0909 0H2.90909C1.30244 0 0 1.30244 0 2.90909V20.3636C0 21.9703 1.30244 23.2727 2.90909 23.2727H29.0909C30.6976 23.2727 32 21.9703 32 20.3636V2.90909C32 1.30244 30.6976 0 29.0909 0Z" fill="url(#paint0_linear_103_1797)"/><path fill-rule="evenodd" clip-rule="evenodd" d="M29.0909 0H2.90909C2.52332 0 2.15223 0.0738135 1.79583 0.221441C1.43942 0.369069 1.12483 0.579272 0.852049 0.852054L13.943 13.943C14.2157 14.2157 14.5303 14.4259 14.8867 14.5735C15.2431 14.7212 15.6142 14.7951 16 14.7951C16.3857 14.7951 16.7568 14.7212 17.1133 14.5735C17.4696 14.4259 17.7842 14.2157 18.057 13.943L31.1479 0.852049C30.8752 0.57927 30.5606 0.369067 30.2042 0.22144C29.8478 0.0738131 29.4767 0 29.0909 0Z" fill="url(#paint1_linear_103_1797)"/><defs><linearGradient id="paint0_linear_103_1797" x1="16" y1="0" x2="16" y2="23.2727" gradientUnits="userSpaceOnUse"><stop stop-color="#FAC227"/><stop offset="1" stop-color="#FAA627"/></linearGradient><linearGradient id="paint1_linear_103_1797" x1="16.0002" y1="0" x2="16.0002" y2="14.7951" gradientUnits="userSpaceOnUse"><stop stop-color="#FCE4B1"/><stop offset="1" stop-color="#FFD272"/></linearGradient></defs></svg>
     `;
 
     const whatsappIcon = `
@@ -17,7 +17,7 @@ export default class MainSection {
     `;
     
     const telegramIcon = `
-      <svg height="22px" width="22px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.94 61.94" id="telegram"><defs><radialGradient id="a" cx="29.8" cy="-26.28" r="72.01" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6fcee7"></stop><stop offset=".2" stop-color="#58b7db"></stop><stop offset=".42" stop-color="#48a7d3"></stop><stop offset=".67" stop-color="#3f9ece"></stop><stop offset="1" stop-color="#3c9bcc"></stop></radialGradient><linearGradient id="b" x1="28.97" x2="28.97" y1="45.56" y2="16.37" gradientUnits="userSpaceOnUse"><stop offset=".16" stop-color="#e1f4fd"></stop><stop offset=".4" stop-color="#f2fafe"></stop><stop offset=".67" stop-color="#fcfeff"></stop><stop offset="1" stop-color="#fff"></stop></linearGradient></defs><rect width="61.94" height="61.94" fill="url(#a)" rx="16.96"></rect><path fill="url(#b)" d="M30.09,39.26l-.88.86c-1,.92-1.9,1.85-2.87,2.76a3,3,0,0,1-1.45.82l-.12,0h-.15a.66.66,0,0,1,0-.14c.09-1.23.19-2.47.29-3.71.08-1.09.17-2.18.25-3.28,0-.31.05-.63.08-.94a.34.34,0,0,1,.11-.18l4.46-4.08,9-8.2,1.2-1.1a1.71,1.71,0,0,0,.22-.25c.12-.17.06-.31-.14-.36a.82.82,0,0,0-.63.06,3.64,3.64,0,0,0-.47.28L21.85,32.58c-.32.2-.63.41-1,.6a.42.42,0,0,1-.27,0L12.9,30.85a5.29,5.29,0,0,1-.76-.27.77.77,0,0,1-.33-1.23,1.77,1.77,0,0,1,.82-.66q1.18-.5,2.37-1l12.94-5,16-6.17a3.08,3.08,0,0,1,.66-.18,1.49,1.49,0,0,1,1.64,1.27,3.17,3.17,0,0,1,0,1.3c-.66,3.11-1.33,6.22-2,9.34L42,38.61c-.36,1.7-.71,3.39-1.09,5.08a4.29,4.29,0,0,1-.34,1,1.31,1.31,0,0,1-1.7.77,3.44,3.44,0,0,1-1.16-.55c-2.5-1.87-5-3.73-7.53-5.6Z"></path></svg>
+      <svg width="22px" height="22px" xmlns="http://www.w3.org/2000/svg" aria-label="Telegram" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#37aee2"/><path fill="#c8daea" d="M199 404c-11 0-10-4-13-14l-32-105 245-144"/><path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34"/><path fill="#f6fbfe" d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4"/></svg>
     `;
 
     const googleIcon = `
@@ -44,14 +44,14 @@ export default class MainSection {
     });
 
     const whatsappButton = new Button({
-      label: "Mi WhatsApp",
+      label: "WhatsApp",
       icon: whatsappIcon,
       className: "whatsapp-button",
       onClick: () => window.open("https://wa.me/+542494060873", "_blank"),
     });
 
     const telegramButton = new Button({
-      label: "Mi Telegram",
+      label: "Telegram",
       icon: telegramIcon,
       className: "telegram-button",
       onClick: () => window.open("https://t.me/choxypop", "_blank"),

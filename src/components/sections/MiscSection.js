@@ -9,7 +9,7 @@ export default class MiscSection {
       `;
 
     const stickerlyIcon = `
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" id="sticker"><path fill="#3747D6" d="M7 1C3.68629 1 1 3.68629 1 7V17C1 20.3137 3.68629 23 7 23H17C20.3137 23 23 20.3137 23 17V10C23 9.73478 22.8946 9.48043 22.7071 9.29289L14.7071 1.29289C14.5196 1.10536 14.2652 1 14 1H7Z"></path><path fill="#90CAEA" fill-rule="evenodd" d="M23 10.8293V10C23 9.73478 22.8946 9.48043 22.7071 9.29289L14.7071 1.29289C14.5196 1.10536 14.2652 1 14 1H13.1707C13.0602 1.31278 13 1.64936 13 2V5C13 8.31371 15.6863 11 19 11H22C22.3506 11 22.6872 10.9398 23 10.8293Z" clip-rule="evenodd"></path></svg>
+      <svg width="22px" height="22px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M24 44C35.0457 44 44 35.0457 44 24C44 24 33.5 27 27 20C20.5 13 24 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" fill="#2F88FF" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 24L24 4" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
     `;
 
     const paypalIcon = `
