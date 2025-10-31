@@ -16,7 +16,7 @@ inject();
 export default class App {
   constructor() {
     this.page = new Page();
-    this.backgroundManager = new BackgroundManager("/background-noise.png", {
+    this.backgroundManager = new BackgroundManager("background-noise.png", {
       size: "128px",
       repeat: "repeat",
     });
@@ -42,10 +42,10 @@ export default class App {
     const footer = new Footer(footerTextProvider);
     this.page.addFooterContent(footer);
 
-    const stampSvg = new StampSvgManager("/stamp.svg");
+    const stampSvg = new StampSvgManager("stamp.svg");
     stampSvg.initialize();
 
-    const cardStampManager = new CardStampManager("/stamp.svg", cardElement);
+    const cardStampManager = new CardStampManager("stamp.svg", cardElement);
     cardStampManager.initialize();
 
     this.backgroundManager.initialize();
