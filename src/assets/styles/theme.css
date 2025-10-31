@@ -1,0 +1,211 @@
+html {
+  background: var(--html-background-color);
+}
+
+body {
+  background: var(--background-color);
+}
+
+.button {
+  border-color: var(--border-button-color) !important;
+  background-color: transparent;
+}
+
+.button-label {
+  color: var(--text-light-color);
+}
+
+.theme-button svg path {
+  fill: var(--text-light-color);
+}
+
+.theme-button:hover,
+.holiday-button:hover {
+  background-color: var(--border-button-color);
+}
+
+/* === BOTONES GENERALES === */
+.website-button:hover .button-label,
+.email-button:hover .button-label,
+.whatsapp-button:hover .button-label,
+.telegram-button:hover .button-label,
+.trustpilot-button:hover .button-label,
+.minecraft-button:hover .button-label,
+.roblox-button:hover .button-label,
+.discord-button:hover .button-label,
+.deviantart-button:hover .button-label,
+.instagram-button:hover .button-label,
+.facebook-button:hover .button-label,
+.tiktok-button:hover .button-label,
+.google-button:hover .button-label,
+.youtube-button:hover .button-label,
+.bluesky-button:hover .button-label,
+.twitter-button:hover .button-label,
+.steam-button:hover .button-label,
+.itch-button:hover .button-label,
+.amongus-button:hover .button-label,
+.patreon-button:hover .button-label,
+.stickerly-button:hover .button-label,
+.paypal-button:hover .button-label {
+  color: var(--font-theme-color); /* El texto siempre se mantiene blanco */
+}
+
+/* === COLORES DE HOVER SEGÚN BOTÓN === */
+
+/* Celeste logo → fondo azul fuerte */
+.website-button:hover {
+  background-color: #0066cc;
+}
+
+/* Multicolor logo → gris medio */
+.email-button:hover {
+  background-color: #cfcfcf;
+}
+
+/* Verde claro logo → verde oscuro */
+.whatsapp-button:hover {
+  background-color: #128c7e;
+}
+
+/* Celeste logo → azul medio */
+.telegram-button:hover {
+  background-color: #0078b5;
+}
+
+/* Verde claro logo → verde más oscuro */
+.trustpilot-button:hover {
+  background-color: #007f5f;
+}
+
+/* Marrón/verde logo → fondo gris piedra */
+.minecraft-button:hover {
+  background-color: #5b4b34;
+}
+
+/* Celeste logo → azul oscuro */
+.roblox-button:hover {
+  background-color: #004b87;
+}
+
+/* Violeta claro logo → violeta oscuro */
+.discord-button:hover {
+  background-color: #5865f2;
+}
+
+/* Verde logo → verde más oscuro */
+.deviantart-button:hover {
+  background-color: #1a4733;
+}
+
+/* Multicolor logo → rosa fuerte */
+.instagram-button:hover {
+  background-color: #e1306c;
+}
+
+/* Celeste/blanco logo → azul intenso */
+.facebook-button:hover {
+  background-color: #1877f2;
+}
+
+/* Logo oscuro (glitch) → gris suave */
+.tiktok-button:hover {
+  background-color: #cfcfcf;
+}
+
+/* Multicolor logo → gris claro */
+.google-button:hover {
+  background-color: #e6e6e6;
+}
+
+/* Rojo logo → rojo más oscuro */
+.youtube-button:hover {
+  background-color: #cc0000;
+}
+
+/* Celeste logo → azul fuerte */
+.bluesky-button:hover {
+  background-color: #0085ff;
+}
+
+/* Negro logo → gris oscuro */
+.twitter-button:hover {
+  background-color: #1a1a1a;
+}
+
+/* Azul logo → azul más oscuro */
+.steam-button:hover {
+  background-color: #1b2838;
+}
+
+/* Rojo logo → rojo medio */
+.itch-button:hover {
+  background-color: #ff3c3c;
+}
+
+/* Rojo con borde negro logo → rojo oscuro */
+.amongus-button:hover {
+  background-color: #b11226;
+}
+
+/* Naranja logo → naranja más fuerte */
+.patreon-button:hover {
+  background-color: #ff6f3c;
+}
+
+/* Celeste logo → azul cielo */
+.stickerly-button:hover {
+  background-color: #3eb9ff;
+}
+
+/* Azul/celeste logo → azul intenso */
+.paypal-button:hover {
+  background-color: #003087;
+}
+
+
+.badge.circle .pulse-element,
+.badge.rectangle {
+  background-color: var(--accent-color);
+}
+
+.badge.circle {
+  background-color: rgba(31, 210, 72, 50%);
+}
+
+.badge-text {
+  color: var(--font-theme-color);
+}
+
+.card {
+  border-color: var(--border-color) !important;
+  background-color: var(--card-background-color);
+}
+
+[data-theme="dark"] .background-manager {
+  opacity: 0.04;
+}
+
+h1,
+h2,
+p,
+.logo-text {
+  color: var(--text-color);
+}
+
+.logo-sub-text {
+  color: var(--text-light-color);
+}
+
+.tooltip {
+  background-color: var(--primary-color);
+  color: var(--tooltip-theme-color);
+}
+
+footer {
+  color: var(--text-light-color);
+}
+
+.stamp-svg svg path,
+.mobile-stamp svg path {
+  fill: var(--primary-color);
+}
