@@ -4519,7 +4519,7 @@ var App = /*#__PURE__*/function () {
   function App() {
     _classCallCheck(this, App);
     this.page = new _components_structural_Page_js__WEBPACK_IMPORTED_MODULE_1__["default"]();
-    this.backgroundManager = new _components_decorative_BackgroundManager_js__WEBPACK_IMPORTED_MODULE_8__["default"]("/background-noise.png", {
+    this.backgroundManager = new _components_decorative_BackgroundManager_js__WEBPACK_IMPORTED_MODULE_8__["default"]("background-noise.png", {
       size: "128px",
       repeat: "repeat"
     });
@@ -4538,9 +4538,9 @@ var App = /*#__PURE__*/function () {
       var footerTextProvider = new _assets_utils_FooterTextProvider_js__WEBPACK_IMPORTED_MODULE_9__.FooterTextProvider("creado con 💜 por ChoxyPop. Todos los derechos reservados. (Diseño y codigo hecho por Alina Polozhai)");
       var footer = new _components_structural_Footer_js__WEBPACK_IMPORTED_MODULE_3__["default"](footerTextProvider);
       this.page.addFooterContent(footer);
-      var stampSvg = new _components_decorative_StampElement_js__WEBPACK_IMPORTED_MODULE_6__["default"]("/stamp.svg");
+      var stampSvg = new _components_decorative_StampElement_js__WEBPACK_IMPORTED_MODULE_6__["default"]("stamp.svg");
       stampSvg.initialize();
-      var cardStampManager = new _components_decorative_CardStampManager_js__WEBPACK_IMPORTED_MODULE_7__["default"]("/stamp.svg", cardElement);
+      var cardStampManager = new _components_decorative_CardStampManager_js__WEBPACK_IMPORTED_MODULE_7__["default"]("stamp.svg", cardElement);
       cardStampManager.initialize();
       this.backgroundManager.initialize();
     }
