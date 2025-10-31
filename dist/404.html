@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redireccionando...</title>
+  <script type="text/javascript">
+    // 1. Obtener el path del usuario
+    let path = window.location.pathname.slice(1).toLowerCase(); // "wa" en /wa
+
+    // 2. Cargar redirects.js dinámicamente
+    let script = document.createElement('script');
+    script.src = 'https://raw.githubusercontent.com/ChoxyPop/contenido/f46b9427a46c6a8c3237854283f60579470fc3e0/redirects.js';
+    script.onload = function() {
+      // 3. Buscar el enlace correspondiente
+      let url = redirects[path];
+      if(url) {
+        // Redirigir
+        window.location.href = url;
+      } else {
+        // Mostrar alerta si no existe
+        alert("El enlace fue removido, actualizado o está mal escrito. Por favor verifica.");
+        // Opcional: redirigir al home
+        window.location.href = "/";
+      }
+    };
+    document.head.appendChild(script);
+  </script>
+</head>
+<body>
+  <p>Redireccionando...</p>
+</body>
+</html>
