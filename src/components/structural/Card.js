@@ -10,7 +10,7 @@ export default class Card {
   constructor(name = null) {
     this.name = name;
     this.header = new CardHeader(
-      "https://raw.githubusercontent.com/ChoxyPop/contenido/f46b9427a46c6a8c3237854283f60579470fc3e0/profile.png",
+      "https://raw.githubusercontent.com/ChoxyPop/contenido/f46b9427a46c6a8c3237854283f60579470fc3e0/profile.webp",
       "Foto de perfil de ChoxyPop",
       "Creando",
       "ChoxyPop",

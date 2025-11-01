@@ -4112,7 +4112,7 @@ var Card = /*#__PURE__*/function () {
     var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
     _classCallCheck(this, Card);
     this.name = name;
-    this.header = new _statical_CardHeader_js__WEBPACK_IMPORTED_MODULE_0__["default"]("https://raw.githubusercontent.com/ChoxyPop/contenido/f46b9427a46c6a8c3237854283f60579470fc3e0/profile.png", "Foto de perfil de ChoxyPop", "Creando", "ChoxyPop", "Femboy de minicomics, memes y videojuegos.");
+    this.header = new _statical_CardHeader_js__WEBPACK_IMPORTED_MODULE_0__["default"]("https://raw.githubusercontent.com/ChoxyPop/contenido/f46b9427a46c6a8c3237854283f60579470fc3e0/profile.webp", "Foto de perfil de ChoxyPop", "Creando", "ChoxyPop", "Femboy de minicomics, memes y videojuegos.");
     this.decorativeElement = new _decorative_DecorativeElement_js__WEBPACK_IMPORTED_MODULE_1__["default"]("animated-line");
     this.mainSection = _sections_MainSection_js__WEBPACK_IMPORTED_MODULE_2__["default"].create();
     this.projectsSection = _sections_ProjectsSection_js__WEBPACK_IMPORTED_MODULE_3__["default"].create();
