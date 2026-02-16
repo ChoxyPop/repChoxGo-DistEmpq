@@ -10,6 +10,7 @@ export default class LogoElement {
     logo.alt = this.alt;
     logo.className = "logo";
     logo.loading = "lazy";
+    logo.style.borderRadius = "20px";
     return logo;
   }
 }
