@@ -6,17 +6,13 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "webpack-build": "webpack",
+    "generate-redirects": "node generator.js",
+    "build": "npm run webpack-build && npm run generate-redirects",
     "start": "webpack serve",
     "lint": "eslint 'src/**/*.js'",
     "format": "prettier --write ."
   },
-  "keywords": [
-    "link",
-    "links-three"
-  ],
-  "author": "Alina Polozhai",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/eslint-parser": "^7.25.9",
@@ -40,6 +36,8 @@
     "webpack-dev-server": "^5.2.1"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.4.1"
+    "@vercel/analytics": "^1.4.1",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
   }
 }

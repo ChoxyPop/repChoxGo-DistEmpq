@@ -1,62 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Redireccionando...</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-      color: #444;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Página no encontrada | ChoxyPop</title>
+    <style>
+        body { font-family: system-ui, sans-serif; text-align: center; padding: 50px; color: #333; }
+        .logo { max-width: 150px; margin-bottom: 20px; }
+        a { color: #007bff; text-decoration: none; border: 1px solid #007bff; padding: 10px 20px; border-radius: 5px; }
+    </style>
 </head>
 <body>
-  <h2>Redireccionando...</h2>
-  <p>Por favor espera un momento, si no eres redireccionado en breve prueba permitir las redirecciones.</p>
-
-  <script>
-    (async () => {
-      // Obtener la ruta (sin / inicial ni final)
-      const path = window.location.pathname.replace(/^\/+|\/+$/g, "");
-
-      // Si no hay ruta, volver al inicio
-      if (!path) {
-        window.location.replace("/");
-        return;
-      }
-
-      try {
-        // Cargar el archivo remoto con los enlaces
-        const res = await fetch("https://raw.githubusercontent.com/ChoxyPop/contenido/refs/heads/main/redirects.js");
-        const text = await res.text();
-
-        // Crear un objeto vacío y ejecutar el contenido del archivo dentro de un Function
-        const redirects = {};
-        new Function("redirects", text + "; Object.assign(this, redirects);").call(redirects, redirects);
-
-        // Buscar clave ignorando mayúsculas/minúsculas
-        const key = Object.keys(redirects).find(k => k.toLowerCase() === path.toLowerCase());
-
-        if (key) {
-          // Redirigir al enlace correspondiente
-          window.location.replace(redirects[key]);
-        } else {
-          alert("El enlace fue removido, actualizado o no existe. Verifica si está correctamente escrito.");
-          document.body.innerHTML = "<h2>Enlace no encontrado</h2><p>El enlace solicitado no existe o fue removido.</p>";
-        }
-      } catch (err) {
-        console.error("Error en la redirección:", err);
-        alert("Hubo un error al intentar redirigir. Intenta nuevamente más tarde.");
-      }
-    })();
-  </script>
+    <h1>¡Ups! Enlace perdido</h1>
+    <p>Parece que este enlace no existe o ha sido movido.</p>
+    <br><br>
+    <a href="https://go.choxypop.com">Ir a la web principal</a>
 </body>
 </html>
